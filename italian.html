@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Italian</title>
+	<link rel="stylesheet" type="text/css" href="css/cookingStyles.css">
+</head>
+ <script>
+    function showLarge(graphic) {
+      graphic.style.width="170px";
+      graphic.style.height="170px";
+      graphic.style.marginTop="0px";
+      graphic.style.marginLeft="10px";
+      graphic.style.marginRight="0px";
+      
+    }
+    function showNormal(graphic) {
+      graphic.style.width="140px";
+      graphic.style.height="140px";
+      graphic.style.marginTop="50px";
+      graphic.style.marginRight="20px";
+      graphic.style.marginLeft="20px";
+    }
+
+  </script>
+
+
+<body>
+	<!-- Page Header -->
+	<header>
+		<h1>Cooking for Students</h1>
+		<img id="banner" src="images/cookingBanner.jpg">
+	</header>
+
+	<!-- Navigation Bar -->
+	<nav>
+		<ul id="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="italian.html">Italian</a></li>
+			<li><a href="indian.html">Indian</a></li>
+			<li><a href="thai.html">Thai</a></li>
+			<li><a href="chinese.html">Chinese</a></li>
+      <li><a href="survey.html">Survey</a></li>
+		</ul>
+	</nav>
+
+	<!-- The main content of the page -->
+	<main>
+    <div id="allItalian">
+    <h2 style="float:left;display:inline">Italian Food</h2>
+
+    <img src="images/italyFlag.png" style="width:75px;height:75px;float:right;margin-left:20px;margin-bottom:20px"> 
+
+    <p style="clear:both">Italian food is known for its simplicity, with many recipes having only a handful of ingredients.  Around the country there are lots of regional dishes many of which are based on the staple food of pizza and pasta.  Pizza and pasta are well loved student dishes being both easy to make and cheap to prepare.  Click on the links below to see some easy to prepare Italian food.</p>
+    <br>    
+    <a href="pizzabasics.html">Pizza Recipes</a><br>
+    <a href="pastabasics.html">Pasta Recipes</a><br>
+
+    <img class="italianImages" src="images/italy1.jpg" onmouseover="showLarge(this)" onmouseout="showNormal(this)"> 
+    <img class="italianImages" src="images/italy2.jpg" onmouseover="showLarge(this)" onmouseout="showNormal(this)">
+    <img class="italianImages" src="images/italy3.jpg" onmouseover="showLarge(this)" onmouseout="showNormal(this)">
+    <img class="italianImages" src="images/italy4.jpg" onmouseover="showLarge(this)" onmouseout="showNormal(this)">
+    </div>
+
+	</main>
+
+	<!-- Page Footer -->
+	<footer>
+    Famous chefs:<br>
+    <a href="https://www.ming.com/">Ming Tsai</a><br>
+    <a href="https://www.rachaelray.com/">Rachael Ray</a><br>
+    <a href="https://www.gordonramsay.com/">Gordon Ramsay</a>
+	</footer>
+</body>
+</html>
